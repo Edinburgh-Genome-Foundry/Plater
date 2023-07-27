@@ -1,0 +1,1978 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.5.4">
+    
+    
+      
+        <title>Plater - Plater</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.80dcb947.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#4cae4f">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="green" data-md-color-accent="lightgreen">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#module-platerplater" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Plater" class="md-header__button md-logo" aria-label="Plater" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Plater
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Plater
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Edinburgh-Genome-Foundry/Plater" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Plater
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Plater" class="md-nav__button md-logo" aria-label="Plater" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Plater
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Edinburgh-Genome-Foundry/Plater" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Plater
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Reference
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Reference" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Reference
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          Plater
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Plater" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Plater
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        Index
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Plater
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Plater
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#functions" class="md-nav__link">
+    Functions
+  </a>
+  
+    <nav class="md-nav" aria-label="Functions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#convert_geneart_shipment_file_to_csv" class="md-nav__link">
+    convert_geneart_shipment_file_to_csv
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create_destination_plate" class="md-nav__link">
+    create_destination_plate
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create_gwl_and_platemap_from_csv" class="md-nav__link">
+    create_gwl_and_platemap_from_csv
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create_gwl_record_triplet" class="md-nav__link">
+    create_gwl_record_triplet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create_worklist_data_object" class="md-nav__link">
+    create_worklist_data_object
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create_worklist_data_object_using_destination_wells" class="md-nav__link">
+    create_worklist_data_object_using_destination_wells
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#make_csv_from_fragment_analyzer_report" class="md-nav__link">
+    make_csv_from_fragment_analyzer_report
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plates_from_geneart_shipment_layout_sheet" class="md-nav__link">
+    plates_from_geneart_shipment_layout_sheet
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../version/" class="md-nav__link">
+        Version
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#functions" class="md-nav__link">
+    Functions
+  </a>
+  
+    <nav class="md-nav" aria-label="Functions">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#convert_geneart_shipment_file_to_csv" class="md-nav__link">
+    convert_geneart_shipment_file_to_csv
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create_destination_plate" class="md-nav__link">
+    create_destination_plate
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create_gwl_and_platemap_from_csv" class="md-nav__link">
+    create_gwl_and_platemap_from_csv
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create_gwl_record_triplet" class="md-nav__link">
+    create_gwl_record_triplet
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create_worklist_data_object" class="md-nav__link">
+    create_worklist_data_object
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#create_worklist_data_object_using_destination_wells" class="md-nav__link">
+    create_worklist_data_object_using_destination_wells
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#make_csv_from_fragment_analyzer_report" class="md-nav__link">
+    make_csv_from_fragment_analyzer_report
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#plates_from_geneart_shipment_layout_sheet" class="md-nav__link">
+    plates_from_geneart_shipment_layout_sheet
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  <a href="https://github.com/Edinburgh-Genome-Foundry/Plater/edit/main/reference/plater/plater.md" title="Edit this page" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+<h1 id="module-platerplater">Module plater.plater</h1>
+<details class="example">
+<summary>View Source</summary>
+<div class="codehilite"><pre><span></span><code><span class="kn">import</span> <span class="nn">pandas</span>
+
+<span class="kn">import</span> <span class="nn">plateo</span>
+
+<span class="kn">from</span> <span class="nn">plateo.containers</span> <span class="kn">import</span> <span class="n">Plate96</span><span class="p">,</span> <span class="n">Plate384</span>
+
+<span class="kn">import</span> <span class="nn">dioscuri</span>
+
+<span class="k">def</span> <span class="nf">create_gwl_and_platemap_from_csv</span><span class="p">(</span>
+
+    <span class="n">name</span><span class="p">,</span>
+
+    <span class="n">csv_file</span><span class="p">,</span>
+
+    <span class="n">starting_well</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+
+    <span class="n">washing_scheme</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+
+    <span class="n">destination_plate</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+
+    <span class="n">destination_specified</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+
+<span class="p">):</span>
+
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Generate a `dict` of a dioscuri.GeminiWorkList() and a Plate from a csv file.</span>
+
+<span class="sd">    **Parameters**</span>
+
+<span class="sd">    **name**</span>
+
+<span class="sd">    &gt; Name of the project.</span>
+
+<span class="sd">    **csv_file**</span>
+
+<span class="sd">    &gt; The csv file containing the transfers. There must be only one destination plate</span>
+
+<span class="sd">    &gt; specified. The required csv columns are:</span>
+
+<span class="sd">        source_well</span>
+
+<span class="sd">        source_well_content  # optional: no plate map generated if any missing.</span>
+
+<span class="sd">        source_well_concentration  # nanogram/microliter (ng/uL). Optional.</span>
+
+<span class="sd">        source_well_volume  # optional</span>
+
+<span class="sd">        source_plate_name</span>
+
+<span class="sd">        source_plate_type</span>
+
+<span class="sd">        source_plate_size  # only `96` or `384`</span>
+
+<span class="sd">        volume_to_transfer  # microliter (uL)</span>
+
+<span class="sd">        destination_plate_name  # only one destination plate</span>
+
+<span class="sd">        destination_plate_type  # only one destination plate</span>
+
+<span class="sd">        destination_plate_size  # only one destination plate (only `96` or `384`)</span>
+
+<span class="sd">    &gt; Optional column: &#39;destination_well&#39;. Set &#39;destination_specified&#39; True to use it.</span>
+
+<span class="sd">    **starting_well**</span>
+
+<span class="sd">    &gt; The index of the starting well: skip wells before starting well. Default `1`.</span>
+
+<span class="sd">    **washing_scheme**</span>
+
+<span class="sd">    &gt; The washing_scheme (1-4) to use between the transfers. Default uses &quot;W;&quot;.</span>
+
+<span class="sd">    **destination_plate**</span>
+
+<span class="sd">    &gt; The destination plate. Default `None` creates a new empty destination plate.</span>
+
+<span class="sd">    **destination_specified**</span>
+
+<span class="sd">    &gt; `bool`. If True, then use the &#39;destination_well&#39; column,</span>
+
+<span class="sd">    and ignore &#39;starting_well&#39; parameter.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">if</span> <span class="n">destination_specified</span><span class="p">:</span>
+
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Destination wells are specified. Ignoring &#39;starting_well&#39; parameter.&quot;</span><span class="p">)</span>
+
+    <span class="n">report</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>  <span class="c1"># this collects various results during run</span>
+
+    <span class="n">df</span> <span class="o">=</span> <span class="n">pandas</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">csv_file</span><span class="p">)</span>  <span class="c1"># read_transfer_table</span>
+
+    <span class="k">if</span> <span class="s2">&quot;destination_well&quot;</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">columns</span> <span class="ow">and</span> <span class="ow">not</span> <span class="n">destination_specified</span><span class="p">:</span>
+
+        <span class="nb">print</span><span class="p">(</span>
+
+            <span class="s2">&quot;&#39;destination_specified&#39; is set to False: ignoring &#39;destination_well&#39; column.&quot;</span>
+
+        <span class="p">)</span>
+
+    <span class="c1"># Input checks:</span>
+
+    <span class="k">if</span> <span class="ow">not</span> <span class="nb">len</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">destination_plate_name</span><span class="p">))</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;There must be only one destination plate specified&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="ow">not</span> <span class="nb">len</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">destination_plate_size</span><span class="p">))</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;There must be only one destination plate size specified&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="ow">not</span> <span class="nb">len</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">destination_plate_type</span><span class="p">))</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;There must be only one destination plate type specified&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">df</span><span class="o">.</span><span class="n">destination_plate_size</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">not</span> <span class="ow">in</span> <span class="p">[</span><span class="mi">96</span><span class="p">,</span> <span class="mi">384</span><span class="p">]:</span>
+
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Only 96-well and 384-well destination plates are supported.&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="nb">set</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">source_plate_size</span><span class="p">)</span> <span class="o">-</span> <span class="nb">set</span><span class="p">([</span><span class="mi">96</span><span class="p">,</span> <span class="mi">384</span><span class="p">])</span> <span class="o">!=</span> <span class="nb">set</span><span class="p">():</span>
+
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Only 96-well and 384-well source plates are supported.&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">destination_specified</span><span class="p">:</span>
+
+        <span class="c1"># dioscuri.GeminiWorkList:</span>
+
+        <span class="n">gwl</span> <span class="o">=</span> <span class="n">create_worklist_data_object_using_destination_wells</span><span class="p">(</span>
+
+            <span class="n">name</span><span class="p">,</span> <span class="n">df</span><span class="p">,</span> <span class="n">washing_scheme</span>
+
+        <span class="p">)</span>
+
+        <span class="n">report</span> <span class="o">+=</span> <span class="s2">&quot;</span><span class="si">%d</span><span class="s2"> transfers listed in gwl.</span><span class="se">\n</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;destination_well&quot;</span><span class="p">]))</span>
+
+        <span class="k">try</span><span class="p">:</span>
+
+            <span class="n">plate</span> <span class="o">=</span> <span class="n">create_destination_plate</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">df</span><span class="p">,</span> <span class="n">destination_plate</span><span class="p">)</span>
+
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Cannot create destination plate!&quot;</span><span class="p">)</span>
+
+            <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+
+            <span class="n">plate</span> <span class="o">=</span> <span class="kc">None</span>
+
+            <span class="n">report</span> <span class="o">+=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Destination plate not created.</span><span class="se">\n</span><span class="s2">&quot;</span>
+
+        <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;gwl&quot;</span><span class="p">:</span> <span class="n">gwl</span><span class="p">,</span> <span class="s2">&quot;plate&quot;</span><span class="p">:</span> <span class="n">plate</span><span class="p">,</span> <span class="s2">&quot;report&quot;</span><span class="p">:</span> <span class="n">report</span><span class="p">}</span>
+
+    <span class="k">else</span><span class="p">:</span>  <span class="c1"># original workflow</span>
+
+        <span class="k">if</span> <span class="p">(</span><span class="n">starting_well</span> <span class="o">+</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">destination_plate_type</span><span class="p">))</span> <span class="o">&gt;</span> <span class="nb">int</span><span class="p">(</span>
+
+            <span class="n">df</span><span class="o">.</span><span class="n">destination_plate_size</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">+</span> <span class="mi">1</span>
+
+        <span class="p">):</span>  <span class="c1"># add 1 because starting_well is not zero-based</span>
+
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Cannot do transfer: starting well value is too big&quot;</span><span class="p">)</span>
+
+        <span class="c1"># dioscuri.GeminiWorkList:</span>
+
+        <span class="n">gwl</span> <span class="o">=</span> <span class="n">create_worklist_data_object</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">df</span><span class="p">,</span> <span class="n">starting_well</span><span class="p">,</span> <span class="n">washing_scheme</span><span class="p">)</span>
+
+        <span class="n">destination_well_list</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span>
+
+            <span class="nb">range</span><span class="p">(</span><span class="n">starting_well</span><span class="p">,</span> <span class="p">(</span><span class="n">starting_well</span> <span class="o">+</span> <span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">destination_plate_type</span><span class="p">)))</span>
+
+        <span class="p">)</span>
+
+        <span class="nb">print</span><span class="p">(</span><span class="n">destination_well_list</span><span class="p">)</span>
+
+        <span class="n">wellnames</span> <span class="o">=</span> <span class="p">[</span>
+
+            <span class="n">plateo</span><span class="o">.</span><span class="n">tools</span><span class="o">.</span><span class="n">index_to_wellname</span><span class="p">(</span>
+
+                <span class="n">index</span><span class="o">=</span><span class="n">index</span><span class="p">,</span> <span class="n">num_wells</span><span class="o">=</span><span class="n">df</span><span class="o">.</span><span class="n">destination_plate_size</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">direction</span><span class="o">=</span><span class="s2">&quot;column&quot;</span>
+
+            <span class="p">)</span>
+
+            <span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="n">destination_well_list</span>
+
+        <span class="p">]</span>
+
+        <span class="n">df</span><span class="p">[</span><span class="s2">&quot;destination_well&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">wellnames</span>
+
+        <span class="n">report</span> <span class="o">+=</span> <span class="s2">&quot;The starting destination well position is </span><span class="si">%d</span><span class="s2"> (</span><span class="si">%s</span><span class="s2">).</span><span class="se">\n</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span>
+
+            <span class="n">starting_well</span><span class="p">,</span>
+
+            <span class="n">df</span><span class="p">[</span><span class="s2">&quot;destination_well&quot;</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span>
+
+        <span class="p">)</span>
+
+        <span class="n">report</span> <span class="o">+=</span> <span class="s2">&quot;</span><span class="si">%d</span><span class="s2"> transfers listed in gwl.</span><span class="se">\n</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;destination_well&quot;</span><span class="p">]))</span>
+
+        <span class="k">try</span><span class="p">:</span>
+
+            <span class="n">plate</span> <span class="o">=</span> <span class="n">create_destination_plate</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">df</span><span class="p">,</span> <span class="n">destination_plate</span><span class="p">)</span>
+
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Cannot create destination plate!&quot;</span><span class="p">)</span>
+
+            <span class="nb">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+
+            <span class="n">plate</span> <span class="o">=</span> <span class="kc">None</span>
+
+            <span class="n">report</span> <span class="o">+=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Destination plate not created.</span><span class="se">\n</span><span class="s2">&quot;</span>
+
+        <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;gwl&quot;</span><span class="p">:</span> <span class="n">gwl</span><span class="p">,</span> <span class="s2">&quot;plate&quot;</span><span class="p">:</span> <span class="n">plate</span><span class="p">,</span> <span class="s2">&quot;report&quot;</span><span class="p">:</span> <span class="n">report</span><span class="p">}</span>
+
+<span class="k">def</span> <span class="nf">create_gwl_record_triplet</span><span class="p">(</span><span class="n">entry</span><span class="p">,</span> <span class="n">current_destination_well</span><span class="p">,</span> <span class="n">washing_scheme</span><span class="p">):</span>
+
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Generate three gwl records, aspirate, dispense and wash, for a transfer.&quot;&quot;&quot;</span>
+
+    <span class="n">source_well</span> <span class="o">=</span> <span class="n">entry</span><span class="o">.</span><span class="n">source_well</span>
+
+    <span class="n">source_plate_name</span> <span class="o">=</span> <span class="n">entry</span><span class="o">.</span><span class="n">source_plate_name</span>
+
+    <span class="n">source_plate_type</span> <span class="o">=</span> <span class="n">entry</span><span class="o">.</span><span class="n">source_plate_type</span>
+
+    <span class="n">source_plate_size</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">entry</span><span class="o">.</span><span class="n">source_plate_size</span><span class="p">)</span>
+
+    <span class="n">destination_plate_name</span> <span class="o">=</span> <span class="n">entry</span><span class="o">.</span><span class="n">destination_plate_name</span>
+
+    <span class="n">destination_plate_type</span> <span class="o">=</span> <span class="n">entry</span><span class="o">.</span><span class="n">destination_plate_type</span>
+
+    <span class="c1"># destination_plate_size = entry.destination_plate_size</span>
+
+    <span class="n">volume</span> <span class="o">=</span> <span class="n">entry</span><span class="o">.</span><span class="n">volume_to_transfer</span>
+
+    <span class="n">record_triplet</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="c1"># Generate 3 records</span>
+
+    <span class="n">tecan_well</span> <span class="o">=</span> <span class="n">plateo</span><span class="o">.</span><span class="n">tools</span><span class="o">.</span><span class="n">wellname_to_index</span><span class="p">(</span>
+
+        <span class="n">wellname</span><span class="o">=</span><span class="n">source_well</span><span class="p">,</span> <span class="n">num_wells</span><span class="o">=</span><span class="n">source_plate_size</span><span class="p">,</span> <span class="n">direction</span><span class="o">=</span><span class="s2">&quot;column&quot;</span><span class="p">,</span>
+
+    <span class="p">)</span>
+
+    <span class="c1"># Aspirate</span>
+
+    <span class="n">aspirate</span> <span class="o">=</span> <span class="n">dioscuri</span><span class="o">.</span><span class="n">Pipette</span><span class="p">(</span>
+
+        <span class="s2">&quot;A&quot;</span><span class="p">,</span>
+
+        <span class="n">rack_label</span><span class="o">=</span><span class="n">source_plate_name</span><span class="p">,</span>
+
+        <span class="n">rack_type</span><span class="o">=</span><span class="n">source_plate_type</span><span class="p">,</span>
+
+        <span class="n">position</span><span class="o">=</span><span class="n">tecan_well</span><span class="p">,</span>
+
+        <span class="n">volume</span><span class="o">=</span><span class="n">volume</span><span class="p">,</span>
+
+    <span class="p">)</span>
+
+    <span class="n">record_triplet</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">aspirate</span><span class="p">)</span>
+
+    <span class="c1"># Dispense</span>
+
+    <span class="n">dispense</span> <span class="o">=</span> <span class="n">dioscuri</span><span class="o">.</span><span class="n">Pipette</span><span class="p">(</span>
+
+        <span class="s2">&quot;D&quot;</span><span class="p">,</span>
+
+        <span class="n">rack_label</span><span class="o">=</span><span class="n">destination_plate_name</span><span class="p">,</span>
+
+        <span class="n">rack_type</span><span class="o">=</span><span class="n">destination_plate_type</span><span class="p">,</span>
+
+        <span class="n">position</span><span class="o">=</span><span class="n">current_destination_well</span><span class="p">,</span>
+
+        <span class="n">volume</span><span class="o">=</span><span class="n">volume</span><span class="p">,</span>
+
+    <span class="p">)</span>
+
+    <span class="n">record_triplet</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">dispense</span><span class="p">)</span>
+
+    <span class="c1"># Wash</span>
+
+    <span class="n">wash</span> <span class="o">=</span> <span class="n">dioscuri</span><span class="o">.</span><span class="n">WashTipOrReplaceDITI</span><span class="p">(</span><span class="n">scheme</span><span class="o">=</span><span class="n">washing_scheme</span><span class="p">)</span>
+
+    <span class="n">record_triplet</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">wash</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">record_triplet</span>
+
+<span class="k">def</span> <span class="nf">create_destination_plate</span><span class="p">(</span><span class="n">name</span><span class="p">,</span> <span class="n">df</span><span class="p">,</span> <span class="n">destination_plate</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+
+    <span class="k">if</span> <span class="nb">any</span><span class="p">(</span><span class="n">pandas</span><span class="o">.</span><span class="n">isna</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">source_well_content</span><span class="p">)):</span>
+
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Error: missing content&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="nb">any</span><span class="p">(</span><span class="n">pandas</span><span class="o">.</span><span class="n">isna</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">source_well_concentration</span><span class="p">)):</span>
+
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Error: missing concentration&quot;</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">destination_plate</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+
+        <span class="k">if</span> <span class="n">df</span><span class="o">.</span><span class="n">destination_plate_size</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="mi">96</span><span class="p">:</span>
+
+            <span class="n">plate</span> <span class="o">=</span> <span class="n">Plate96</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="n">name</span><span class="p">)</span>
+
+        <span class="k">elif</span> <span class="n">df</span><span class="o">.</span><span class="n">destination_plate_size</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="mi">384</span><span class="p">:</span>
+
+            <span class="n">plate</span> <span class="o">=</span> <span class="n">Plate384</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="n">name</span><span class="p">)</span>
+
+        <span class="k">else</span><span class="p">:</span>  <span class="c1"># should not occur if called by create_gwl_and_platemap_from_csv()</span>
+
+            <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span>
+
+                <span class="s2">&quot;Only 96-well and 384-well destination plates are supported.&quot;</span>
+
+            <span class="p">)</span>
+
+    <span class="k">else</span><span class="p">:</span>
+
+        <span class="n">plate</span> <span class="o">=</span> <span class="n">destination_plate</span>
+
+    <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+
+        <span class="n">well</span> <span class="o">=</span> <span class="n">plate</span><span class="o">.</span><span class="n">wells</span><span class="p">[</span><span class="n">row</span><span class="o">.</span><span class="n">destination_well</span><span class="p">]</span>
+
+        <span class="c1"># if not well.is_empty:</span>
+
+        <span class="c1">#     raise ValueError(</span>
+
+        <span class="c1">#         &quot;Error: destination plate well %s is not empty&quot; % row.destination_well</span>
+
+        <span class="c1">#     )</span>
+
+        <span class="n">well</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;source_well_content&quot;</span><span class="p">:</span> <span class="n">row</span><span class="o">.</span><span class="n">source_well_content</span><span class="p">}</span>
+
+        <span class="n">volume_microl</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="s2">&quot;volume_to_transfer&quot;</span><span class="p">]</span>  <span class="c1"># microliter (uL)</span>
+
+        <span class="n">volume_in_l</span> <span class="o">=</span> <span class="n">volume_microl</span> <span class="o">*</span> <span class="mf">1e-6</span>
+
+        <span class="n">quantity</span> <span class="o">=</span> <span class="n">volume_microl</span> <span class="o">*</span> <span class="n">row</span><span class="p">[</span><span class="s2">&quot;source_well_concentration&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mf">1e-9</span>  <span class="c1"># ng / uL</span>
+
+        <span class="n">part_label</span> <span class="o">=</span> <span class="n">row</span><span class="o">.</span><span class="n">source_well_content</span>
+
+        <span class="n">well</span><span class="o">.</span><span class="n">add_content</span><span class="p">({</span><span class="n">part_label</span><span class="p">:</span> <span class="n">quantity</span><span class="p">},</span> <span class="n">volume</span><span class="o">=</span><span class="n">volume_in_l</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">plate</span>
+
+<span class="k">def</span> <span class="nf">create_worklist_data_object_using_destination_wells</span><span class="p">(</span>
+
+    <span class="n">name</span><span class="p">,</span> <span class="n">df</span><span class="p">,</span> <span class="n">washing_scheme</span><span class="p">,</span>
+
+<span class="p">):</span>
+
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Alternative version for case where destination well is specified.&quot;&quot;&quot;</span>
+
+    <span class="n">records</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="n">destination_plate_size</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">destination_plate_size</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+
+    <span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+
+        <span class="n">tecan_destination_well</span> <span class="o">=</span> <span class="n">plateo</span><span class="o">.</span><span class="n">tools</span><span class="o">.</span><span class="n">wellname_to_index</span><span class="p">(</span>
+
+            <span class="n">wellname</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">destination_well</span><span class="p">,</span>
+
+            <span class="n">num_wells</span><span class="o">=</span><span class="n">destination_plate_size</span><span class="p">,</span>
+
+            <span class="n">direction</span><span class="o">=</span><span class="s2">&quot;column&quot;</span><span class="p">,</span>
+
+        <span class="p">)</span>
+
+        <span class="n">gwl_record_triplet</span> <span class="o">=</span> <span class="n">create_gwl_record_triplet</span><span class="p">(</span>
+
+            <span class="n">row</span><span class="p">,</span> <span class="n">tecan_destination_well</span><span class="p">,</span> <span class="n">washing_scheme</span>
+
+        <span class="p">)</span>
+
+        <span class="n">records</span> <span class="o">+=</span> <span class="n">gwl_record_triplet</span>
+
+    <span class="n">worklist</span> <span class="o">=</span> <span class="n">dioscuri</span><span class="o">.</span><span class="n">GeminiWorkList</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="n">name</span><span class="p">,</span> <span class="n">records</span><span class="o">=</span><span class="n">records</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">worklist</span>
+
+<span class="k">def</span> <span class="nf">create_worklist_data_object</span><span class="p">(</span>
+
+    <span class="n">name</span><span class="p">,</span> <span class="n">df</span><span class="p">,</span> <span class="n">starting_well</span><span class="p">,</span> <span class="n">washing_scheme</span><span class="p">,</span>
+
+<span class="p">):</span>
+
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Starting well in Tecan well format.&quot;&quot;&quot;</span>
+
+    <span class="n">records</span> <span class="o">=</span> <span class="p">[]</span>
+
+    <span class="n">current_destination_well</span> <span class="o">=</span> <span class="n">starting_well</span>
+
+    <span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="n">df</span><span class="o">.</span><span class="n">index</span><span class="p">:</span>
+
+        <span class="n">gwl_record_triplet</span> <span class="o">=</span> <span class="n">create_gwl_record_triplet</span><span class="p">(</span>
+
+            <span class="n">df</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">index</span><span class="p">],</span> <span class="n">current_destination_well</span><span class="p">,</span> <span class="n">washing_scheme</span>
+
+        <span class="p">)</span>
+
+        <span class="n">records</span> <span class="o">+=</span> <span class="n">gwl_record_triplet</span>
+
+        <span class="n">current_destination_well</span> <span class="o">+=</span> <span class="mi">1</span>
+
+    <span class="n">worklist</span> <span class="o">=</span> <span class="n">dioscuri</span><span class="o">.</span><span class="n">GeminiWorkList</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="n">name</span><span class="p">,</span> <span class="n">records</span><span class="o">=</span><span class="n">records</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">worklist</span>
+
+<span class="k">def</span> <span class="nf">convert_geneart_shipment_file_to_csv</span><span class="p">(</span>
+
+    <span class="n">filepath</span><span class="p">,</span>
+
+    <span class="n">destination_plate_name</span><span class="p">,</span>
+
+    <span class="n">destination_plate_type</span><span class="p">,</span>
+
+    <span class="n">destination_plate_size</span><span class="p">,</span>
+
+    <span class="n">destination_csv</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+
+<span class="p">):</span>
+
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Create a csv file from a shipment layout sheet and return the corresponding df.</span>
+
+<span class="sd">    The csv file can be used with the function `create_gwl_and_platemap_from_csv().`</span>
+
+<span class="sd">    Only 96-well source plates are supported.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">source_plate_size</span> <span class="o">=</span> <span class="mi">96</span>  <span class="c1"># 96-well plates are shipped</span>
+
+    <span class="n">plates_data</span> <span class="o">=</span> <span class="n">pandas</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="n">filepath</span><span class="p">,</span> <span class="n">skiprows</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>  <span class="c1"># skip the first 3 rows</span>
+
+    <span class="n">plates_data</span> <span class="o">=</span> <span class="n">plates_data</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span>
+
+        <span class="n">columns</span><span class="o">=</span><span class="p">{</span>
+
+            <span class="s2">&quot;Gene_Name&quot;</span><span class="p">:</span> <span class="s2">&quot;source_well_content&quot;</span><span class="p">,</span>
+
+            <span class="s2">&quot;Concentration [µg/µl]&quot;</span><span class="p">:</span> <span class="s2">&quot;source_well_concentration&quot;</span><span class="p">,</span>
+
+            <span class="s2">&quot;Volume [µl]&quot;</span><span class="p">:</span> <span class="s2">&quot;source_well_volume&quot;</span><span class="p">,</span>
+
+            <span class="s2">&quot;Pos&quot;</span><span class="p">:</span> <span class="s2">&quot;source_well&quot;</span><span class="p">,</span>
+
+            <span class="s2">&quot;Plate&quot;</span><span class="p">:</span> <span class="s2">&quot;source_plate_name&quot;</span><span class="p">,</span>
+
+        <span class="p">}</span>
+
+    <span class="p">)</span>
+
+    <span class="c1"># Genart supplies microgram/microliter, we need nanogram/microliter (ng/uL):</span>
+
+    <span class="n">plates_data</span><span class="p">[</span><span class="s2">&quot;source_well_concentration&quot;</span><span class="p">]</span> <span class="o">*=</span> <span class="mi">1000</span>
+
+    <span class="n">plates_data</span><span class="p">[</span><span class="s2">&quot;source_plate_size&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">source_plate_size</span>
+
+    <span class="n">plates_data</span><span class="p">[</span><span class="s2">&quot;volume_to_transfer&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;ENTER VOLUME TO TRANSFER (uL)&quot;</span>
+
+    <span class="n">plates_data</span><span class="p">[</span><span class="s2">&quot;source_plate_type&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;ENTER SOURCE PLATE TYPE&quot;</span>
+
+    <span class="n">plates_data</span><span class="p">[</span><span class="s2">&quot;destination_plate_name&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">destination_plate_name</span>
+
+    <span class="n">plates_data</span><span class="p">[</span><span class="s2">&quot;destination_plate_type&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">destination_plate_type</span>
+
+    <span class="n">plates_data</span><span class="p">[</span><span class="s2">&quot;destination_plate_size&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">destination_plate_size</span>
+
+    <span class="k">if</span> <span class="n">destination_csv</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+
+        <span class="n">plates_data</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">destination_csv</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">plates_data</span>
+
+<span class="k">def</span> <span class="nf">plates_from_geneart_shipment_layout_sheet</span><span class="p">(</span><span class="n">filepath</span><span class="p">):</span>
+
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Return a list of all plates (Plate96) in the shipment layout sheet.</span>
+
+<span class="sd">    A layout sheet can contain data for more than one plate, therefore a list of</span>
+
+<span class="sd">    Plateo plates are returned, instead of one plate.</span>
+
+<span class="sd">    Example</span>
+
+<span class="sd">    -------</span>
+
+<span class="sd">    &gt;&gt;&gt; plates = plates_from_geneart_shipment_layout_spreadsheet(filepath=&quot;2020XYZ.xlsx&quot;)</span>
+
+<span class="sd">    &gt;&gt;&gt; # Write the plates in plate layout spreadsheet format:</span>
+
+<span class="sd">    &gt;&gt;&gt; for plate in plates:</span>
+
+<span class="sd">    &gt;&gt;&gt;     plateo.exporters.plate_to_content_spreadsheet(plate, &quot;./%s.xlsx&quot; % plate.name)</span>
+
+<span class="sd">    Parameters</span>
+
+<span class="sd">    ----------</span>
+
+<span class="sd">    filepath</span>
+
+<span class="sd">      Path to the Geneart excel spreadsheet.</span>
+
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="n">plates_data</span> <span class="o">=</span> <span class="n">pandas</span><span class="o">.</span><span class="n">read_excel</span><span class="p">(</span><span class="n">filepath</span><span class="p">,</span> <span class="n">skiprows</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>  <span class="c1"># skip the first 3 rows</span>
+
+    <span class="n">plates_indices</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">plates_data</span><span class="o">.</span><span class="n">Plate</span><span class="p">))</span>  <span class="c1"># there may be multiple plates</span>
+
+    <span class="n">plates</span> <span class="o">=</span> <span class="p">{</span><span class="n">index</span><span class="p">:</span> <span class="n">Plate96</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s2">&quot;Plate </span><span class="si">%d</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="n">index</span><span class="p">)</span> <span class="k">for</span> <span class="n">index</span> <span class="ow">in</span> <span class="n">plates_indices</span><span class="p">}</span>
+
+    <span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">plate</span> <span class="ow">in</span> <span class="n">plates</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+
+        <span class="n">subdata</span> <span class="o">=</span> <span class="n">plates_data</span><span class="p">[</span><span class="n">plates_data</span><span class="o">.</span><span class="n">Plate</span> <span class="o">==</span> <span class="n">index</span><span class="p">]</span>
+
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">subdata</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+
+            <span class="n">well</span> <span class="o">=</span> <span class="n">plate</span><span class="o">.</span><span class="n">wells</span><span class="p">[</span><span class="n">row</span><span class="o">.</span><span class="n">Pos</span><span class="p">]</span>
+
+            <span class="n">well</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="n">k</span><span class="p">:</span> <span class="n">row</span><span class="p">[</span><span class="n">k</span><span class="p">]</span> <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="p">(</span><span class="s2">&quot;IDAuftrag&quot;</span><span class="p">,</span> <span class="s2">&quot;IDConstruct&quot;</span><span class="p">)}</span>
+
+            <span class="n">volume_microl</span> <span class="o">=</span> <span class="n">row</span><span class="p">[</span><span class="s2">&quot;Volume [µl]&quot;</span><span class="p">]</span>
+
+            <span class="n">volume_in_l</span> <span class="o">=</span> <span class="n">volume_microl</span> <span class="o">*</span> <span class="mf">1e-6</span>
+
+            <span class="n">quantity</span> <span class="o">=</span> <span class="n">volume_microl</span> <span class="o">*</span> <span class="n">row</span><span class="p">[</span><span class="s2">&quot;Concentration [µg/µl]&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mf">1e-6</span>
+
+            <span class="n">part_label</span> <span class="o">=</span> <span class="n">row</span><span class="o">.</span><span class="n">Gene_Name</span>
+
+            <span class="n">well</span><span class="o">.</span><span class="n">add_content</span><span class="p">({</span><span class="n">part_label</span><span class="p">:</span> <span class="n">quantity</span><span class="p">},</span> <span class="n">volume</span><span class="o">=</span><span class="n">volume_in_l</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="p">[</span><span class="n">plate</span> <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">plate</span> <span class="ow">in</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">plates</span><span class="o">.</span><span class="n">items</span><span class="p">())]</span>
+
+<span class="k">def</span> <span class="nf">make_csv_from_fragment_analyzer_report</span><span class="p">(</span>
+
+    <span class="n">filepath</span><span class="p">,</span>
+
+    <span class="n">destination_plate_name</span><span class="o">=</span><span class="s2">&quot;ENTER DESTINATION PLATE NAME&quot;</span><span class="p">,</span>
+
+    <span class="n">destination_plate_type</span><span class="o">=</span><span class="s2">&quot;ENTER DESTINATION PLATE TYPE&quot;</span><span class="p">,</span>
+
+    <span class="n">destination_plate_size</span><span class="o">=</span><span class="mi">96</span><span class="p">,</span>
+
+    <span class="n">volume_to_transfer</span><span class="o">=</span><span class="s2">&quot;ENTER VOLUME TO TRANSFER (uL)&quot;</span><span class="p">,</span>  <span class="c1"># microliter</span>
+
+    <span class="n">destination_csv</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+
+    <span class="n">source_plate_name</span><span class="o">=</span><span class="s2">&quot;ENTER SOURCE PLATE NAME&quot;</span><span class="p">,</span>
+
+    <span class="n">source_plate_type</span><span class="o">=</span><span class="s2">&quot;ENTER SOURCE PLATE TYPE&quot;</span><span class="p">,</span>
+
+    <span class="n">source_plate_size</span><span class="o">=</span><span class="mi">96</span><span class="p">,</span>
+
+<span class="p">):</span>
+
+    <span class="n">df</span> <span class="o">=</span> <span class="n">pandas</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">filepath</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="nb">any</span><span class="p">(</span><span class="n">pandas</span><span class="o">.</span><span class="n">isna</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">best_clone</span><span class="p">)):</span>
+
+        <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Missing &#39;best_clone&#39;. Delete rows that are not needed.&quot;</span><span class="p">)</span>
+
+    <span class="n">plate_data</span> <span class="o">=</span> <span class="n">df</span><span class="p">[[</span><span class="s2">&quot;construct&quot;</span><span class="p">,</span> <span class="s2">&quot;best_clone&quot;</span><span class="p">]]</span>
+
+    <span class="n">plate_data</span> <span class="o">=</span> <span class="n">plate_data</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span>
+
+        <span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;construct&quot;</span><span class="p">:</span> <span class="s2">&quot;source_well_content&quot;</span><span class="p">,</span> <span class="s2">&quot;best_clone&quot;</span><span class="p">:</span> <span class="s2">&quot;source_well&quot;</span><span class="p">}</span>
+
+    <span class="p">)</span>
+
+    <span class="n">plate_data</span><span class="p">[</span><span class="s2">&quot;source_well_concentration&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+
+    <span class="n">plate_data</span><span class="p">[</span><span class="s2">&quot;source_plate_size&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">source_plate_size</span>
+
+    <span class="n">plate_data</span><span class="p">[</span><span class="s2">&quot;volume_to_transfer&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">volume_to_transfer</span>
+
+    <span class="n">plate_data</span><span class="p">[</span><span class="s2">&quot;source_plate_name&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">source_plate_name</span>
+
+    <span class="n">plate_data</span><span class="p">[</span><span class="s2">&quot;source_plate_type&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">source_plate_type</span>
+
+    <span class="n">plate_data</span><span class="p">[</span><span class="s2">&quot;destination_plate_name&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">destination_plate_name</span>
+
+    <span class="n">plate_data</span><span class="p">[</span><span class="s2">&quot;destination_plate_type&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">destination_plate_type</span>
+
+    <span class="n">plate_data</span><span class="p">[</span><span class="s2">&quot;destination_plate_size&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">destination_plate_size</span>
+
+    <span class="k">if</span> <span class="n">destination_csv</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+
+        <span class="n">plate_data</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">destination_csv</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">plate_data</span>
+</code></pre></div>
+
+</details>
+<h2 id="functions">Functions</h2>
+<h3 id="convert_geneart_shipment_file_to_csv">convert_geneart_shipment_file_to_csv</h3>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">convert_geneart_shipment_file_to_csv</span><span class="p">(</span>
+    <span class="n">filepath</span><span class="p">,</span>
+    <span class="n">destination_plate_name</span><span class="p">,</span>
+    <span class="n">destination_plate_type</span><span class="p">,</span>
+    <span class="n">destination_plate_size</span><span class="p">,</span>
+    <span class="n">destination_csv</span><span class="o">=</span><span class="kc">None</span>
+<span class="p">)</span>
+</code></pre></div>
+
+<p>Create a csv file from a shipment layout sheet and return the corresponding df.</p>
+<p>The csv file can be used with the function <code>create_gwl_and_platemap_from_csv().</code>
+Only 96-well source plates are supported.</p>
+<details class="example">
+<summary>View Source</summary>
+<div class="codehilite"><pre><span></span><code><span class="nx">def</span><span class="w"> </span><span class="nx">convert_geneart_shipment_file_to_csv</span><span class="p">(</span>
+
+<span class="w">    </span><span class="nx">filepath</span><span class="p">,</span>
+
+<span class="w">    </span><span class="nx">destination_plate_name</span><span class="p">,</span>
+
+<span class="w">    </span><span class="nx">destination_plate_type</span><span class="p">,</span>
+
+<span class="w">    </span><span class="nx">destination_plate_size</span><span class="p">,</span>
+
+<span class="w">    </span><span class="nx">destination_csv</span><span class="p">=</span><span class="nx">None</span><span class="p">,</span>
+
+<span class="p">):</span>
+
+<span class="w">    </span><span class="s">&quot;&quot;&quot;Create a csv file from a shipment layout sheet and return the corresponding df.</span>
+
+<span class="s">    The csv file can be used with the function `create_gwl_and_platemap_from_csv().`</span>
+
+<span class="s">    Only 96-well source plates are supported.</span>
+
+<span class="s">    &quot;&quot;&quot;</span>
+
+<span class="w">    </span><span class="nx">source_plate_size</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="mi">96</span><span class="w">  </span><span class="err">#</span><span class="w"> </span><span class="mi">96</span><span class="o">-</span><span class="nx">well</span><span class="w"> </span><span class="nx">plates</span><span class="w"> </span><span class="nx">are</span><span class="w"> </span><span class="nx">shipped</span>
+
+<span class="w">    </span><span class="nx">plates_data</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nx">pandas</span><span class="p">.</span><span class="nx">read_excel</span><span class="p">(</span><span class="nx">filepath</span><span class="p">,</span><span class="w"> </span><span class="nx">skiprows</span><span class="p">=</span><span class="mi">3</span><span class="p">)</span><span class="w">  </span><span class="err">#</span><span class="w"> </span><span class="nx">skip</span><span class="w"> </span><span class="nx">the</span><span class="w"> </span><span class="nx">first</span><span class="w"> </span><span class="mi">3</span><span class="w"> </span><span class="nx">rows</span>
+
+<span class="w">    </span><span class="nx">plates_data</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nx">plates_data</span><span class="p">.</span><span class="nx">rename</span><span class="p">(</span>
+
+<span class="w">        </span><span class="nx">columns</span><span class="p">={</span>
+
+<span class="w">            </span><span class="s">&quot;Gene_Name&quot;</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;source_well_content&quot;</span><span class="p">,</span>
+
+<span class="w">            </span><span class="s">&quot;Concentration [µg/µl]&quot;</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;source_well_concentration&quot;</span><span class="p">,</span>
+
+<span class="w">            </span><span class="s">&quot;Volume [µl]&quot;</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;source_well_volume&quot;</span><span class="p">,</span>
+
+<span class="w">            </span><span class="s">&quot;Pos&quot;</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;source_well&quot;</span><span class="p">,</span>
+
+<span class="w">            </span><span class="s">&quot;Plate&quot;</span><span class="p">:</span><span class="w"> </span><span class="s">&quot;source_plate_name&quot;</span><span class="p">,</span>
+
+<span class="w">        </span><span class="p">}</span>
+
+<span class="w">    </span><span class="p">)</span>
+
+<span class="w">    </span><span class="err">#</span><span class="w"> </span><span class="nx">Genart</span><span class="w"> </span><span class="nx">supplies</span><span class="w"> </span><span class="nx">microgram</span><span class="o">/</span><span class="nx">microliter</span><span class="p">,</span><span class="w"> </span><span class="nx">we</span><span class="w"> </span><span class="nx">need</span><span class="w"> </span><span class="nx">nanogram</span><span class="o">/</span><span class="nx">microliter</span><span class="w"> </span><span class="p">(</span><span class="nx">ng</span><span class="o">/</span><span class="nx">uL</span><span class="p">):</span>
+
+<span class="w">    </span><span class="nx">plates_data</span><span class="p">[</span><span class="s">&quot;source_well_concentration&quot;</span><span class="p">]</span><span class="w"> </span><span class="o">*=</span><span class="w"> </span><span class="mi">1000</span>
+
+<span class="w">    </span><span class="nx">plates_data</span><span class="p">[</span><span class="s">&quot;source_plate_size&quot;</span><span class="p">]</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nx">source_plate_size</span>
+
+<span class="w">    </span><span class="nx">plates_data</span><span class="p">[</span><span class="s">&quot;volume_to_transfer&quot;</span><span class="p">]</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">&quot;ENTER VOLUME TO TRANSFER (uL)&quot;</span>
+
+<span class="w">    </span><span class="nx">plates_data</span><span class="p">[</span><span class="s">&quot;source_plate_type&quot;</span><span class="p">]</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="s">&quot;ENTER SOURCE PLATE TYPE&quot;</span>
+
+<span class="w">    </span><span class="nx">plates_data</span><span class="p">[</span><span class="s">&quot;destination_plate_name&quot;</span><span class="p">]</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nx">destination_plate_name</span>
+
+<span class="w">    </span><span class="nx">plates_data</span><span class="p">[</span><span class="s">&quot;destination_plate_type&quot;</span><span class="p">]</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nx">destination_plate_type</span>
+
+<span class="w">    </span><span class="nx">plates_data</span><span class="p">[</span><span class="s">&quot;destination_plate_size&quot;</span><span class="p">]</span><span class="w"> </span><span class="p">=</span><span class="w"> </span><span class="nx">destination_plate_size</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="nx">destination_csv</span><span class="w"> </span><span class="k">is</span><span class="w"> </span><span class="k">not</span><span class="w"> </span><span class="nx">None</span><span class="p">:</span>
+
+<span class="w">        </span><span class="nx">plates_data</span><span class="p">.</span><span class="nx">to_csv</span><span class="p">(</span><span class="nx">destination_csv</span><span class="p">,</span><span class="w"> </span><span class="nx">index</span><span class="p">=</span><span class="nx">False</span><span class="p">)</span>
+
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nx">plates_data</span>
+</code></pre></div>
+
+</details>
+<h3 id="create_destination_plate">create_destination_plate</h3>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">create_destination_plate</span><span class="p">(</span>
+    <span class="n">name</span><span class="p">,</span>
+    <span class="n">df</span><span class="p">,</span>
+    <span class="n">destination_plate</span><span class="o">=</span><span class="kc">None</span>
+<span class="p">)</span>
+</code></pre></div>
+
+<details class="example">
+<summary>View Source</summary>
+<div class="codehilite"><pre><span></span><code><span class="nv">def</span><span class="w"> </span><span class="nv">create_destination_plate</span><span class="ss">(</span><span class="nv">name</span>,<span class="w"> </span><span class="nv">df</span>,<span class="w"> </span><span class="nv">destination_plate</span><span class="o">=</span><span class="nv">None</span><span class="ss">)</span>:
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="nv">any</span><span class="ss">(</span><span class="nv">pandas</span>.<span class="nv">isna</span><span class="ss">(</span><span class="nv">df</span>.<span class="nv">source_well_content</span><span class="ss">))</span>:
+
+<span class="w">        </span><span class="nv">raise</span><span class="w"> </span><span class="nv">ValueError</span><span class="ss">(</span><span class="s2">&quot;Error: missing content&quot;</span><span class="ss">)</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="nv">any</span><span class="ss">(</span><span class="nv">pandas</span>.<span class="nv">isna</span><span class="ss">(</span><span class="nv">df</span>.<span class="nv">source_well_concentration</span><span class="ss">))</span>:
+
+<span class="w">        </span><span class="nv">raise</span><span class="w"> </span><span class="nv">ValueError</span><span class="ss">(</span><span class="s2">&quot;Error: missing concentration&quot;</span><span class="ss">)</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="nv">destination_plate</span><span class="w"> </span><span class="nv">is</span><span class="w"> </span><span class="nv">None</span>:
+
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="nv">df</span>.<span class="nv">destination_plate_size</span>[<span class="mi">0</span>]<span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">96</span>:
+
+<span class="w">            </span><span class="nv">plate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">Plate96</span><span class="ss">(</span><span class="nv">name</span><span class="o">=</span><span class="nv">name</span><span class="ss">)</span>
+
+<span class="w">        </span><span class="nv">elif</span><span class="w"> </span><span class="nv">df</span>.<span class="nv">destination_plate_size</span>[<span class="mi">0</span>]<span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">384</span>:
+
+<span class="w">            </span><span class="nv">plate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">Plate384</span><span class="ss">(</span><span class="nv">name</span><span class="o">=</span><span class="nv">name</span><span class="ss">)</span>
+
+<span class="w">        </span><span class="k">else</span>:<span class="w">  </span>#<span class="w"> </span><span class="nv">should</span><span class="w"> </span><span class="nv">not</span><span class="w"> </span><span class="nv">occur</span><span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nv">called</span><span class="w"> </span><span class="nv">by</span><span class="w"> </span><span class="nv">create_gwl_and_platemap_from_csv</span><span class="ss">()</span>
+
+<span class="w">            </span><span class="nv">raise</span><span class="w"> </span><span class="nv">ValueError</span><span class="ss">(</span>
+
+<span class="w">                </span><span class="s2">&quot;Only 96-well and 384-well destination plates are supported.&quot;</span>
+
+<span class="w">            </span><span class="ss">)</span>
+
+<span class="w">    </span><span class="k">else</span>:
+
+<span class="w">        </span><span class="nv">plate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">destination_plate</span>
+
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="nv">i</span>,<span class="w"> </span><span class="nv">row</span><span class="w"> </span><span class="nv">in</span><span class="w"> </span><span class="nv">df</span>.<span class="nv">iterrows</span><span class="ss">()</span>:
+
+<span class="w">        </span><span class="nv">well</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">plate</span>.<span class="nv">wells</span>[<span class="nv">row</span>.<span class="nv">destination_well</span>]
+
+<span class="w">        </span>#<span class="w"> </span><span class="k">if</span><span class="w"> </span><span class="nv">not</span><span class="w"> </span><span class="nv">well</span>.<span class="nv">is_empty</span>:
+
+<span class="w">        </span>#<span class="w">     </span><span class="nv">raise</span><span class="w"> </span><span class="nv">ValueError</span><span class="ss">(</span>
+
+<span class="w">        </span>#<span class="w">         </span><span class="s2">&quot;Error: destination plate well %s is not empty&quot;</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="nv">row</span>.<span class="nv">destination_well</span>
+
+<span class="w">        </span>#<span class="w">     </span><span class="ss">)</span>
+
+<span class="w">        </span><span class="nv">well</span>.<span class="nv">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>{<span class="s2">&quot;source_well_content&quot;</span>:<span class="w"> </span><span class="nv">row</span>.<span class="nv">source_well_content</span>}
+
+<span class="w">        </span><span class="nv">volume_microl</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">row</span>[<span class="s2">&quot;volume_to_transfer&quot;</span>]<span class="w">  </span>#<span class="w"> </span><span class="nv">microliter</span><span class="w"> </span><span class="ss">(</span><span class="nv">uL</span><span class="ss">)</span>
+
+<span class="w">        </span><span class="nv">volume_in_l</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">volume_microl</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">1</span><span class="nv">e</span><span class="o">-</span><span class="mi">6</span>
+
+<span class="w">        </span><span class="nv">quantity</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">volume_microl</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="nv">row</span>[<span class="s2">&quot;source_well_concentration&quot;</span>]<span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mi">1</span><span class="nv">e</span><span class="o">-</span><span class="mi">9</span><span class="w">  </span>#<span class="w"> </span><span class="nv">ng</span><span class="w"> </span><span class="o">/</span><span class="w"> </span><span class="nv">uL</span>
+
+<span class="w">        </span><span class="nv">part_label</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nv">row</span>.<span class="nv">source_well_content</span>
+
+<span class="w">        </span><span class="nv">well</span>.<span class="nv">add_content</span><span class="ss">(</span>{<span class="nv">part_label</span>:<span class="w"> </span><span class="nv">quantity</span>},<span class="w"> </span><span class="nv">volume</span><span class="o">=</span><span class="nv">volume_in_l</span><span class="ss">)</span>
+
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="nv">plate</span>
+</code></pre></div>
+
+</details>
+<h3 id="create_gwl_and_platemap_from_csv">create_gwl_and_platemap_from_csv</h3>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">create_gwl_and_platemap_from_csv</span><span class="p">(</span>
+    <span class="n">name</span><span class="p">,</span>
+    <span class="n">csv_file</span><span class="p">,</span>
+    <span class="n">starting_well</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+    <span class="n">washing_scheme</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">destination_plate</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">destination_specified</span><span class="o">=</span><span class="kc">False</span>
+<span class="p">)</span>
+</code></pre></div>
+
+<p>Generate a <code>dict</code> of a dioscuri.GeminiWorkList() and a Plate from a csv file.</p>
+<p><strong>Parameters</strong></p>
+<p><strong>name</strong></p>
+<blockquote>
+<p>Name of the project.</p>
+</blockquote>
+<p><strong>csv_file</strong></p>
+<blockquote>
+<p>The csv file containing the transfers. There must be only one destination plate
+specified. The required csv columns are:
+    source_well
+    source_well_content  # optional: no plate map generated if any missing.
+    source_well_concentration  # nanogram/microliter (ng/uL). Optional.
+    source_well_volume  # optional
+    source_plate_name
+    source_plate_type
+    source_plate_size  # only <code>96</code> or <code>384</code>
+    volume_to_transfer  # microliter (uL)
+    destination_plate_name  # only one destination plate
+    destination_plate_type  # only one destination plate
+    destination_plate_size  # only one destination plate (only <code>96</code> or <code>384</code>)</p>
+<p>Optional column: 'destination_well'. Set 'destination_specified' True to use it.</p>
+</blockquote>
+<p><strong>starting_well</strong></p>
+<blockquote>
+<p>The index of the starting well: skip wells before starting well. Default <code>1</code>.</p>
+</blockquote>
+<p><strong>washing_scheme</strong></p>
+<blockquote>
+<p>The washing_scheme (1-4) to use between the transfers. Default uses "W;".</p>
+</blockquote>
+<p><strong>destination_plate</strong></p>
+<blockquote>
+<p>The destination plate. Default <code>None</code> creates a new empty destination plate.</p>
+</blockquote>
+<p><strong>destination_specified</strong></p>
+<blockquote>
+<p><code>bool</code>. If True, then use the 'destination_well' column,
+and ignore 'starting_well' parameter.</p>
+</blockquote>
+<details class="example">
+<summary>View Source</summary>
+<div class="codehilite"><pre><span></span><code><span class="n">def</span><span class="w"> </span><span class="n">create_gwl_and_platemap_from_csv</span><span class="p">(</span>
+
+<span class="w">    </span><span class="k">name</span><span class="p">,</span>
+
+<span class="w">    </span><span class="n">csv_file</span><span class="p">,</span>
+
+<span class="w">    </span><span class="n">starting_well</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>
+
+<span class="w">    </span><span class="n">washing_scheme</span><span class="o">=</span><span class="k">None</span><span class="p">,</span>
+
+<span class="w">    </span><span class="n">destination_plate</span><span class="o">=</span><span class="k">None</span><span class="p">,</span>
+
+<span class="w">    </span><span class="n">destination_specified</span><span class="o">=</span><span class="no">False</span><span class="p">,</span>
+
+<span class="p">)</span><span class="o">:</span>
+
+<span class="w">    </span><span class="s2">&quot;</span><span class="se">&quot;&quot;</span><span class="s2">Generate a `dict` of a dioscuri.GeminiWorkList() and a Plate from a csv file.</span>
+
+<span class="s2">    **Parameters**</span>
+
+<span class="s2">    **name**</span>
+
+<span class="s2">    &gt; Name of the project.</span>
+
+<span class="s2">    **csv_file**</span>
+
+<span class="s2">    &gt; The csv file containing the transfers. There must be only one destination plate</span>
+
+<span class="s2">    &gt; specified. The required csv columns are:</span>
+
+<span class="s2">        source_well</span>
+
+<span class="s2">        source_well_content  # optional: no plate map generated if any missing.</span>
+
+<span class="s2">        source_well_concentration  # nanogram/microliter (ng/uL). Optional.</span>
+
+<span class="s2">        source_well_volume  # optional</span>
+
+<span class="s2">        source_plate_name</span>
+
+<span class="s2">        source_plate_type</span>
+
+<span class="s2">        source_plate_size  # only `96` or `384`</span>
+
+<span class="s2">        volume_to_transfer  # microliter (uL)</span>
+
+<span class="s2">        destination_plate_name  # only one destination plate</span>
+
+<span class="s2">        destination_plate_type  # only one destination plate</span>
+
+<span class="s2">        destination_plate_size  # only one destination plate (only `96` or `384`)</span>
+
+<span class="s2">    &gt; Optional column: &#39;destination_well&#39;. Set &#39;destination_specified&#39; True to use it.</span>
+
+<span class="s2">    **starting_well**</span>
+
+<span class="s2">    &gt; The index of the starting well: skip wells before starting well. Default `1`.</span>
+
+<span class="s2">    **washing_scheme**</span>
+
+<span class="s2">    &gt; The washing_scheme (1-4) to use between the transfers. Default uses &quot;</span><span class="n">W</span><span class="p">;</span><span class="s2">&quot;.</span>
+
+<span class="s2">    **destination_plate**</span>
+
+<span class="s2">    &gt; The destination plate. Default `None` creates a new empty destination plate.</span>
+
+<span class="s2">    **destination_specified**</span>
+
+<span class="s2">    &gt; `bool`. If True, then use the &#39;destination_well&#39; column,</span>
+
+<span class="s2">    and ignore &#39;starting_well&#39; parameter.</span>
+
+<span class="s2">    </span><span class="se">&quot;&quot;</span><span class="s2">&quot;</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="n">destination_specified</span><span class="o">:</span>
+
+<span class="w">        </span><span class="n">print</span><span class="p">(</span><span class="s2">&quot;Destination wells are specified. Ignoring &#39;starting_well&#39; parameter.&quot;</span><span class="p">)</span>
+
+<span class="w">    </span><span class="n">report</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;&quot;</span><span class="w">  </span><span class="c1"># this collects various results during run</span>
+
+<span class="w">    </span><span class="n">df</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">pandas</span><span class="p">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">csv_file</span><span class="p">)</span><span class="w">  </span><span class="c1"># read_transfer_table</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="s2">&quot;destination_well&quot;</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">df</span><span class="p">.</span><span class="k">columns</span><span class="w"> </span><span class="k">and</span><span class="w"> </span><span class="k">not</span><span class="w"> </span><span class="n">destination_specified</span><span class="o">:</span>
+
+<span class="w">        </span><span class="n">print</span><span class="p">(</span>
+
+<span class="w">            </span><span class="s2">&quot;&#39;destination_specified&#39; is set to False: ignoring &#39;destination_well&#39; column.&quot;</span>
+
+<span class="w">        </span><span class="p">)</span>
+
+<span class="w">    </span><span class="c1"># Input checks:</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="k">not</span><span class="w"> </span><span class="n">len</span><span class="p">(</span><span class="kt">set</span><span class="p">(</span><span class="n">df</span><span class="p">.</span><span class="n">destination_plate_name</span><span class="p">))</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">1</span><span class="o">:</span>
+
+<span class="w">        </span><span class="n">raise</span><span class="w"> </span><span class="n">ValueError</span><span class="p">(</span><span class="s2">&quot;There must be only one destination plate specified&quot;</span><span class="p">)</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="k">not</span><span class="w"> </span><span class="n">len</span><span class="p">(</span><span class="kt">set</span><span class="p">(</span><span class="n">df</span><span class="p">.</span><span class="n">destination_plate_size</span><span class="p">))</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">1</span><span class="o">:</span>
+
+<span class="w">        </span><span class="n">raise</span><span class="w"> </span><span class="n">ValueError</span><span class="p">(</span><span class="s2">&quot;There must be only one destination plate size specified&quot;</span><span class="p">)</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="k">not</span><span class="w"> </span><span class="n">len</span><span class="p">(</span><span class="kt">set</span><span class="p">(</span><span class="n">df</span><span class="p">.</span><span class="n">destination_plate_type</span><span class="p">))</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="mi">1</span><span class="o">:</span>
+
+<span class="w">        </span><span class="n">raise</span><span class="w"> </span><span class="n">ValueError</span><span class="p">(</span><span class="s2">&quot;There must be only one destination plate type specified&quot;</span><span class="p">)</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="n">df</span><span class="p">.</span><span class="n">destination_plate_size</span><span class="err">[</span><span class="mi">0</span><span class="err">]</span><span class="w"> </span><span class="k">not</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="err">[</span><span class="mi">96</span><span class="p">,</span><span class="w"> </span><span class="mi">384</span><span class="err">]</span><span class="o">:</span>
+
+<span class="w">        </span><span class="n">raise</span><span class="w"> </span><span class="n">ValueError</span><span class="p">(</span><span class="s2">&quot;Only 96-well and 384-well destination plates are supported.&quot;</span><span class="p">)</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="kt">set</span><span class="p">(</span><span class="n">df</span><span class="p">.</span><span class="n">source_plate_size</span><span class="p">)</span><span class="w"> </span><span class="o">-</span><span class="w"> </span><span class="kt">set</span><span class="p">(</span><span class="err">[</span><span class="mi">96</span><span class="p">,</span><span class="w"> </span><span class="mi">384</span><span class="err">]</span><span class="p">)</span><span class="w"> </span><span class="o">!=</span><span class="w"> </span><span class="kt">set</span><span class="p">()</span><span class="o">:</span>
+
+<span class="w">        </span><span class="n">raise</span><span class="w"> </span><span class="n">ValueError</span><span class="p">(</span><span class="s2">&quot;Only 96-well and 384-well source plates are supported.&quot;</span><span class="p">)</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="n">destination_specified</span><span class="o">:</span>
+
+<span class="w">        </span><span class="c1"># dioscuri.GeminiWorkList:</span>
+
+<span class="w">        </span><span class="n">gwl</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">create_worklist_data_object_using_destination_wells</span><span class="p">(</span>
+
+<span class="w">            </span><span class="k">name</span><span class="p">,</span><span class="w"> </span><span class="n">df</span><span class="p">,</span><span class="w"> </span><span class="n">washing_scheme</span>
+
+<span class="w">        </span><span class="p">)</span>
+
+<span class="w">        </span><span class="n">report</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="s2">&quot;%d transfers listed in gwl.</span><span class="se">\n</span><span class="s2">&quot;</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="p">(</span><span class="n">len</span><span class="p">(</span><span class="n">df</span><span class="err">[</span><span class="s2">&quot;destination_well&quot;</span><span class="err">]</span><span class="p">))</span>
+
+<span class="w">        </span><span class="n">try</span><span class="o">:</span>
+
+<span class="w">            </span><span class="n">plate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">create_destination_plate</span><span class="p">(</span><span class="k">name</span><span class="p">,</span><span class="w"> </span><span class="n">df</span><span class="p">,</span><span class="w"> </span><span class="n">destination_plate</span><span class="p">)</span>
+
+<span class="w">        </span><span class="k">except</span><span class="w"> </span><span class="n">Exception</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="n">e</span><span class="o">:</span>
+
+<span class="w">            </span><span class="n">print</span><span class="p">(</span><span class="s2">&quot;Cannot create destination plate!&quot;</span><span class="p">)</span>
+
+<span class="w">            </span><span class="n">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+
+<span class="w">            </span><span class="n">plate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">None</span>
+
+<span class="w">            </span><span class="n">report</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Destination plate not created.</span><span class="se">\n</span><span class="s2">&quot;</span>
+
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="err">{</span><span class="s2">&quot;gwl&quot;</span><span class="o">:</span><span class="w"> </span><span class="n">gwl</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;plate&quot;</span><span class="o">:</span><span class="w"> </span><span class="n">plate</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;report&quot;</span><span class="o">:</span><span class="w"> </span><span class="n">report</span><span class="err">}</span>
+
+<span class="w">    </span><span class="k">else</span><span class="o">:</span><span class="w">  </span><span class="c1"># original workflow</span>
+
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="p">(</span><span class="n">starting_well</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">len</span><span class="p">(</span><span class="n">df</span><span class="p">.</span><span class="n">destination_plate_type</span><span class="p">))</span><span class="w"> </span><span class="o">&gt;</span><span class="w"> </span><span class="kt">int</span><span class="p">(</span>
+
+<span class="w">            </span><span class="n">df</span><span class="p">.</span><span class="n">destination_plate_size</span><span class="err">[</span><span class="mi">0</span><span class="err">]</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="mi">1</span>
+
+<span class="w">        </span><span class="p">)</span><span class="o">:</span><span class="w">  </span><span class="c1"># add 1 because starting_well is not zero-based</span>
+
+<span class="w">            </span><span class="n">raise</span><span class="w"> </span><span class="n">ValueError</span><span class="p">(</span><span class="s2">&quot;Cannot do transfer: starting well value is too big&quot;</span><span class="p">)</span>
+
+<span class="w">        </span><span class="c1"># dioscuri.GeminiWorkList:</span>
+
+<span class="w">        </span><span class="n">gwl</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">create_worklist_data_object</span><span class="p">(</span><span class="k">name</span><span class="p">,</span><span class="w"> </span><span class="n">df</span><span class="p">,</span><span class="w"> </span><span class="n">starting_well</span><span class="p">,</span><span class="w"> </span><span class="n">washing_scheme</span><span class="p">)</span>
+
+<span class="w">        </span><span class="n">destination_well_list</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">list</span><span class="p">(</span>
+
+<span class="w">            </span><span class="k">range</span><span class="p">(</span><span class="n">starting_well</span><span class="p">,</span><span class="w"> </span><span class="p">(</span><span class="n">starting_well</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="n">len</span><span class="p">(</span><span class="n">df</span><span class="p">.</span><span class="n">destination_plate_type</span><span class="p">)))</span>
+
+<span class="w">        </span><span class="p">)</span>
+
+<span class="w">        </span><span class="n">print</span><span class="p">(</span><span class="n">destination_well_list</span><span class="p">)</span>
+
+<span class="w">        </span><span class="n">wellnames</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="err">[</span>
+
+<span class="w">            </span><span class="n">plateo</span><span class="p">.</span><span class="n">tools</span><span class="p">.</span><span class="n">index_to_wellname</span><span class="p">(</span>
+
+<span class="w">                </span><span class="k">index</span><span class="o">=</span><span class="k">index</span><span class="p">,</span><span class="w"> </span><span class="n">num_wells</span><span class="o">=</span><span class="n">df</span><span class="p">.</span><span class="n">destination_plate_size</span><span class="err">[</span><span class="mi">0</span><span class="err">]</span><span class="p">,</span><span class="w"> </span><span class="n">direction</span><span class="o">=</span><span class="s2">&quot;column&quot;</span>
+
+<span class="w">            </span><span class="p">)</span>
+
+<span class="w">            </span><span class="k">for</span><span class="w"> </span><span class="k">index</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="n">destination_well_list</span>
+
+<span class="w">        </span><span class="err">]</span>
+
+<span class="w">        </span><span class="n">df</span><span class="err">[</span><span class="s2">&quot;destination_well&quot;</span><span class="err">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">wellnames</span>
+
+<span class="w">        </span><span class="n">report</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="s2">&quot;The starting destination well position is %d (%s).</span><span class="se">\n</span><span class="s2">&quot;</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="p">(</span>
+
+<span class="w">            </span><span class="n">starting_well</span><span class="p">,</span>
+
+<span class="w">            </span><span class="n">df</span><span class="err">[</span><span class="s2">&quot;destination_well&quot;</span><span class="err">][</span><span class="mi">0</span><span class="err">]</span><span class="p">,</span>
+
+<span class="w">        </span><span class="p">)</span>
+
+<span class="w">        </span><span class="n">report</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="s2">&quot;%d transfers listed in gwl.</span><span class="se">\n</span><span class="s2">&quot;</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="p">(</span><span class="n">len</span><span class="p">(</span><span class="n">df</span><span class="err">[</span><span class="s2">&quot;destination_well&quot;</span><span class="err">]</span><span class="p">))</span>
+
+<span class="w">        </span><span class="n">try</span><span class="o">:</span>
+
+<span class="w">            </span><span class="n">plate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">create_destination_plate</span><span class="p">(</span><span class="k">name</span><span class="p">,</span><span class="w"> </span><span class="n">df</span><span class="p">,</span><span class="w"> </span><span class="n">destination_plate</span><span class="p">)</span>
+
+<span class="w">        </span><span class="k">except</span><span class="w"> </span><span class="n">Exception</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="n">e</span><span class="o">:</span>
+
+<span class="w">            </span><span class="n">print</span><span class="p">(</span><span class="s2">&quot;Cannot create destination plate!&quot;</span><span class="p">)</span>
+
+<span class="w">            </span><span class="n">print</span><span class="p">(</span><span class="n">e</span><span class="p">)</span>
+
+<span class="w">            </span><span class="n">plate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">None</span>
+
+<span class="w">            </span><span class="n">report</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">Destination plate not created.</span><span class="se">\n</span><span class="s2">&quot;</span>
+
+<span class="w">        </span><span class="k">return</span><span class="w"> </span><span class="err">{</span><span class="s2">&quot;gwl&quot;</span><span class="o">:</span><span class="w"> </span><span class="n">gwl</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;plate&quot;</span><span class="o">:</span><span class="w"> </span><span class="n">plate</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;report&quot;</span><span class="o">:</span><span class="w"> </span><span class="n">report</span><span class="err">}</span>
+</code></pre></div>
+
+</details>
+<h3 id="create_gwl_record_triplet">create_gwl_record_triplet</h3>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">create_gwl_record_triplet</span><span class="p">(</span>
+    <span class="n">entry</span><span class="p">,</span>
+    <span class="n">current_destination_well</span><span class="p">,</span>
+    <span class="n">washing_scheme</span>
+<span class="p">)</span>
+</code></pre></div>
+
+<p>Generate three gwl records, aspirate, dispense and wash, for a transfer.</p>
+<details class="example">
+<summary>View Source</summary>
+<div class="codehilite"><pre><span></span><code><span class="n">def</span><span class="w"> </span><span class="n">create_gwl_record_triplet</span><span class="p">(</span><span class="n">entry</span><span class="p">,</span><span class="w"> </span><span class="n">current_destination_well</span><span class="p">,</span><span class="w"> </span><span class="n">washing_scheme</span><span class="p">):</span>
+
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Generate three gwl records, aspirate, dispense and wash, for a transfer.&quot;&quot;&quot;</span>
+
+<span class="w">    </span><span class="n">source_well</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">entry</span><span class="o">.</span><span class="n">source_well</span>
+
+<span class="w">    </span><span class="n">source_plate_name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">entry</span><span class="o">.</span><span class="n">source_plate_name</span>
+
+<span class="w">    </span><span class="n">source_plate_type</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">entry</span><span class="o">.</span><span class="n">source_plate_type</span>
+
+<span class="w">    </span><span class="n">source_plate_size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb nb-Type">int</span><span class="p">(</span><span class="n">entry</span><span class="o">.</span><span class="n">source_plate_size</span><span class="p">)</span>
+
+<span class="w">    </span><span class="n">destination_plate_name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">entry</span><span class="o">.</span><span class="n">destination_plate_name</span>
+
+<span class="w">    </span><span class="n">destination_plate_type</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">entry</span><span class="o">.</span><span class="n">destination_plate_type</span>
+
+<span class="w">    </span><span class="c1"># destination_plate_size = entry.destination_plate_size</span>
+
+<span class="w">    </span><span class="n">volume</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">entry</span><span class="o">.</span><span class="n">volume_to_transfer</span>
+
+<span class="w">    </span><span class="n">record_triplet</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[]</span>
+
+<span class="w">    </span><span class="c1"># Generate 3 records</span>
+
+<span class="w">    </span><span class="n">tecan_well</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">plateo</span><span class="o">.</span><span class="n">tools</span><span class="o">.</span><span class="n">wellname_to_index</span><span class="p">(</span>
+
+<span class="w">        </span><span class="n">wellname</span><span class="o">=</span><span class="n">source_well</span><span class="p">,</span><span class="w"> </span><span class="n">num_wells</span><span class="o">=</span><span class="n">source_plate_size</span><span class="p">,</span><span class="w"> </span><span class="n">direction</span><span class="o">=</span><span class="s2">&quot;column&quot;</span><span class="p">,</span>
+
+<span class="w">    </span><span class="p">)</span>
+
+<span class="w">    </span><span class="c1"># Aspirate</span>
+
+<span class="w">    </span><span class="n">aspirate</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">dioscuri</span><span class="o">.</span><span class="n">Pipette</span><span class="p">(</span>
+
+<span class="w">        </span><span class="s2">&quot;A&quot;</span><span class="p">,</span>
+
+<span class="w">        </span><span class="n">rack_label</span><span class="o">=</span><span class="n">source_plate_name</span><span class="p">,</span>
+
+<span class="w">        </span><span class="n">rack_type</span><span class="o">=</span><span class="n">source_plate_type</span><span class="p">,</span>
+
+<span class="w">        </span><span class="n">position</span><span class="o">=</span><span class="n">tecan_well</span><span class="p">,</span>
+
+<span class="w">        </span><span class="n">volume</span><span class="o">=</span><span class="n">volume</span><span class="p">,</span>
+
+<span class="w">    </span><span class="p">)</span>
+
+<span class="w">    </span><span class="n">record_triplet</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">aspirate</span><span class="p">)</span>
+
+<span class="w">    </span><span class="c1"># Dispense</span>
+
+<span class="w">    </span><span class="n">dispense</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">dioscuri</span><span class="o">.</span><span class="n">Pipette</span><span class="p">(</span>
+
+<span class="w">        </span><span class="s2">&quot;D&quot;</span><span class="p">,</span>
+
+<span class="w">        </span><span class="n">rack_label</span><span class="o">=</span><span class="n">destination_plate_name</span><span class="p">,</span>
+
+<span class="w">        </span><span class="n">rack_type</span><span class="o">=</span><span class="n">destination_plate_type</span><span class="p">,</span>
+
+<span class="w">        </span><span class="n">position</span><span class="o">=</span><span class="n">current_destination_well</span><span class="p">,</span>
+
+<span class="w">        </span><span class="n">volume</span><span class="o">=</span><span class="n">volume</span><span class="p">,</span>
+
+<span class="w">    </span><span class="p">)</span>
+
+<span class="w">    </span><span class="n">record_triplet</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">dispense</span><span class="p">)</span>
+
+<span class="w">    </span><span class="c1"># Wash</span>
+
+<span class="w">    </span><span class="n">wash</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">dioscuri</span><span class="o">.</span><span class="n">WashTipOrReplaceDITI</span><span class="p">(</span><span class="n">scheme</span><span class="o">=</span><span class="n">washing_scheme</span><span class="p">)</span>
+
+<span class="w">    </span><span class="n">record_triplet</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">wash</span><span class="p">)</span>
+
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">record_triplet</span>
+</code></pre></div>
+
+</details>
+<h3 id="create_worklist_data_object">create_worklist_data_object</h3>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">create_worklist_data_object</span><span class="p">(</span>
+    <span class="n">name</span><span class="p">,</span>
+    <span class="n">df</span><span class="p">,</span>
+    <span class="n">starting_well</span><span class="p">,</span>
+    <span class="n">washing_scheme</span>
+<span class="p">)</span>
+</code></pre></div>
+
+<p>Starting well in Tecan well format.</p>
+<details class="example">
+<summary>View Source</summary>
+<div class="codehilite"><pre><span></span><code><span class="n">def</span><span class="w"> </span><span class="n">create_worklist_data_object</span><span class="p">(</span>
+
+<span class="w">    </span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">df</span><span class="p">,</span><span class="w"> </span><span class="n">starting_well</span><span class="p">,</span><span class="w"> </span><span class="n">washing_scheme</span><span class="p">,</span>
+
+<span class="p">)</span><span class="err">:</span>
+
+<span class="w">    </span><span class="ss">&quot;&quot;&quot;Starting well in Tecan well format.&quot;&quot;&quot;</span>
+
+<span class="w">    </span><span class="n">records</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="err">[]</span>
+
+<span class="w">    </span><span class="n">current_destination_well</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">starting_well</span>
+
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="k">index</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="n">df</span><span class="p">.</span><span class="k">index</span><span class="err">:</span>
+
+<span class="w">        </span><span class="n">gwl_record_triplet</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">create_gwl_record_triplet</span><span class="p">(</span>
+
+<span class="w">            </span><span class="n">df</span><span class="p">.</span><span class="n">iloc</span><span class="o">[</span><span class="n">index</span><span class="o">]</span><span class="p">,</span><span class="w"> </span><span class="n">current_destination_well</span><span class="p">,</span><span class="w"> </span><span class="n">washing_scheme</span>
+
+<span class="w">        </span><span class="p">)</span>
+
+<span class="w">        </span><span class="n">records</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">gwl_record_triplet</span>
+
+<span class="w">        </span><span class="n">current_destination_well</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="mi">1</span>
+
+<span class="w">    </span><span class="n">worklist</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">dioscuri</span><span class="p">.</span><span class="n">GeminiWorkList</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">records</span><span class="o">=</span><span class="n">records</span><span class="p">)</span>
+
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">worklist</span>
+</code></pre></div>
+
+</details>
+<h3 id="create_worklist_data_object_using_destination_wells">create_worklist_data_object_using_destination_wells</h3>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">create_worklist_data_object_using_destination_wells</span><span class="p">(</span>
+    <span class="n">name</span><span class="p">,</span>
+    <span class="n">df</span><span class="p">,</span>
+    <span class="n">washing_scheme</span>
+<span class="p">)</span>
+</code></pre></div>
+
+<p>Alternative version for case where destination well is specified.</p>
+<details class="example">
+<summary>View Source</summary>
+<div class="codehilite"><pre><span></span><code><span class="n">def</span><span class="w"> </span><span class="n">create_worklist_data_object_using_destination_wells</span><span class="p">(</span>
+
+<span class="w">    </span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">df</span><span class="p">,</span><span class="w"> </span><span class="n">washing_scheme</span><span class="p">,</span>
+
+<span class="p">):</span>
+
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;Alternative version for case where destination well is specified.&quot;&quot;&quot;</span>
+
+<span class="w">    </span><span class="n">records</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="p">[]</span>
+
+<span class="w">    </span><span class="n">destination_plate_size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nb nb-Type">int</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">destination_plate_size</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="n">index</span><span class="p">,</span><span class="w"> </span><span class="n">row</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="n">df</span><span class="o">.</span><span class="n">iterrows</span><span class="p">():</span>
+
+<span class="w">        </span><span class="n">tecan_destination_well</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">plateo</span><span class="o">.</span><span class="n">tools</span><span class="o">.</span><span class="n">wellname_to_index</span><span class="p">(</span>
+
+<span class="w">            </span><span class="n">wellname</span><span class="o">=</span><span class="n">row</span><span class="o">.</span><span class="n">destination_well</span><span class="p">,</span>
+
+<span class="w">            </span><span class="n">num_wells</span><span class="o">=</span><span class="n">destination_plate_size</span><span class="p">,</span>
+
+<span class="w">            </span><span class="n">direction</span><span class="o">=</span><span class="s2">&quot;column&quot;</span><span class="p">,</span>
+
+<span class="w">        </span><span class="p">)</span>
+
+<span class="w">        </span><span class="n">gwl_record_triplet</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">create_gwl_record_triplet</span><span class="p">(</span>
+
+<span class="w">            </span><span class="n">row</span><span class="p">,</span><span class="w"> </span><span class="n">tecan_destination_well</span><span class="p">,</span><span class="w"> </span><span class="n">washing_scheme</span>
+
+<span class="w">        </span><span class="p">)</span>
+
+<span class="w">        </span><span class="n">records</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="n">gwl_record_triplet</span>
+
+<span class="w">    </span><span class="n">worklist</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">dioscuri</span><span class="o">.</span><span class="n">GeminiWorkList</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="n">name</span><span class="p">,</span><span class="w"> </span><span class="n">records</span><span class="o">=</span><span class="n">records</span><span class="p">)</span>
+
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">worklist</span>
+</code></pre></div>
+
+</details>
+<h3 id="make_csv_from_fragment_analyzer_report">make_csv_from_fragment_analyzer_report</h3>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">make_csv_from_fragment_analyzer_report</span><span class="p">(</span>
+    <span class="n">filepath</span><span class="p">,</span>
+    <span class="n">destination_plate_name</span><span class="o">=</span><span class="s1">&#39;ENTER DESTINATION PLATE NAME&#39;</span><span class="p">,</span>
+    <span class="n">destination_plate_type</span><span class="o">=</span><span class="s1">&#39;ENTER DESTINATION PLATE TYPE&#39;</span><span class="p">,</span>
+    <span class="n">destination_plate_size</span><span class="o">=</span><span class="mi">96</span><span class="p">,</span>
+    <span class="n">volume_to_transfer</span><span class="o">=</span><span class="s1">&#39;ENTER VOLUME TO TRANSFER (uL)&#39;</span><span class="p">,</span>
+    <span class="n">destination_csv</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">source_plate_name</span><span class="o">=</span><span class="s1">&#39;ENTER SOURCE PLATE NAME&#39;</span><span class="p">,</span>
+    <span class="n">source_plate_type</span><span class="o">=</span><span class="s1">&#39;ENTER SOURCE PLATE TYPE&#39;</span><span class="p">,</span>
+    <span class="n">source_plate_size</span><span class="o">=</span><span class="mi">96</span>
+<span class="p">)</span>
+</code></pre></div>
+
+<details class="example">
+<summary>View Source</summary>
+<div class="codehilite"><pre><span></span><code><span class="n">def</span><span class="w"> </span><span class="n">make_csv_from_fragment_analyzer_report</span><span class="p">(</span>
+
+<span class="w">    </span><span class="n">filepath</span><span class="p">,</span>
+
+<span class="w">    </span><span class="n">destination_plate_name</span><span class="o">=</span><span class="s2">&quot;ENTER DESTINATION PLATE NAME&quot;</span><span class="p">,</span>
+
+<span class="w">    </span><span class="n">destination_plate_type</span><span class="o">=</span><span class="s2">&quot;ENTER DESTINATION PLATE TYPE&quot;</span><span class="p">,</span>
+
+<span class="w">    </span><span class="n">destination_plate_size</span><span class="o">=</span><span class="mi">96</span><span class="p">,</span>
+
+<span class="w">    </span><span class="n">volume_to_transfer</span><span class="o">=</span><span class="s2">&quot;ENTER VOLUME TO TRANSFER (uL)&quot;</span><span class="p">,</span><span class="w">  </span><span class="c1"># microliter</span>
+
+<span class="w">    </span><span class="n">destination_csv</span><span class="o">=</span><span class="n">None</span><span class="p">,</span>
+
+<span class="w">    </span><span class="n">source_plate_name</span><span class="o">=</span><span class="s2">&quot;ENTER SOURCE PLATE NAME&quot;</span><span class="p">,</span>
+
+<span class="w">    </span><span class="n">source_plate_type</span><span class="o">=</span><span class="s2">&quot;ENTER SOURCE PLATE TYPE&quot;</span><span class="p">,</span>
+
+<span class="w">    </span><span class="n">source_plate_size</span><span class="o">=</span><span class="mi">96</span><span class="p">,</span>
+
+<span class="p">):</span>
+
+<span class="w">    </span><span class="n">df</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">pandas</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">filepath</span><span class="p">)</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="n">any</span><span class="p">(</span><span class="n">pandas</span><span class="o">.</span><span class="n">isna</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">best_clone</span><span class="p">)):</span>
+
+<span class="w">        </span><span class="n">raise</span><span class="w"> </span><span class="n">ValueError</span><span class="p">(</span><span class="s2">&quot;Missing &#39;best_clone&#39;. Delete rows that are not needed.&quot;</span><span class="p">)</span>
+
+<span class="w">    </span><span class="n">plate_data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">df</span><span class="p">[[</span><span class="s2">&quot;construct&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;best_clone&quot;</span><span class="p">]]</span>
+
+<span class="w">    </span><span class="n">plate_data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">plate_data</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span>
+
+<span class="w">        </span><span class="n">columns</span><span class="o">=</span><span class="p">{</span><span class="s2">&quot;construct&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;source_well_content&quot;</span><span class="p">,</span><span class="w"> </span><span class="s2">&quot;best_clone&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;source_well&quot;</span><span class="p">}</span>
+
+<span class="w">    </span><span class="p">)</span>
+
+<span class="w">    </span><span class="n">plate_data</span><span class="p">[</span><span class="s2">&quot;source_well_concentration&quot;</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">&quot;&quot;</span>
+
+<span class="w">    </span><span class="n">plate_data</span><span class="p">[</span><span class="s2">&quot;source_plate_size&quot;</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">source_plate_size</span>
+
+<span class="w">    </span><span class="n">plate_data</span><span class="p">[</span><span class="s2">&quot;volume_to_transfer&quot;</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">volume_to_transfer</span>
+
+<span class="w">    </span><span class="n">plate_data</span><span class="p">[</span><span class="s2">&quot;source_plate_name&quot;</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">source_plate_name</span>
+
+<span class="w">    </span><span class="n">plate_data</span><span class="p">[</span><span class="s2">&quot;source_plate_type&quot;</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">source_plate_type</span>
+
+<span class="w">    </span><span class="n">plate_data</span><span class="p">[</span><span class="s2">&quot;destination_plate_name&quot;</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">destination_plate_name</span>
+
+<span class="w">    </span><span class="n">plate_data</span><span class="p">[</span><span class="s2">&quot;destination_plate_type&quot;</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">destination_plate_type</span>
+
+<span class="w">    </span><span class="n">plate_data</span><span class="p">[</span><span class="s2">&quot;destination_plate_size&quot;</span><span class="p">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">destination_plate_size</span>
+
+<span class="w">    </span><span class="k">if</span><span class="w"> </span><span class="n">destination_csv</span><span class="w"> </span><span class="k">is</span><span class="w"> </span><span class="ow">not</span><span class="w"> </span><span class="n">None</span><span class="p">:</span>
+
+<span class="w">        </span><span class="n">plate_data</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="n">destination_csv</span><span class="p">,</span><span class="w"> </span><span class="n">index</span><span class="o">=</span><span class="n">False</span><span class="p">)</span>
+
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">plate_data</span>
+</code></pre></div>
+
+</details>
+<h3 id="plates_from_geneart_shipment_layout_sheet">plates_from_geneart_shipment_layout_sheet</h3>
+<div class="codehilite"><pre><span></span><code><span class="k">def</span> <span class="nf">plates_from_geneart_shipment_layout_sheet</span><span class="p">(</span>
+    <span class="n">filepath</span>
+<span class="p">)</span>
+</code></pre></div>
+
+<p>Return a list of all plates (Plate96) in the shipment layout sheet.</p>
+<p>A layout sheet can contain data for more than one plate, therefore a list of
+Plateo plates are returned, instead of one plate.</p>
+<p><strong>Parameters:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>filepath</td>
+<td>None</td>
+<td>Path to the Geneart excel spreadsheet.</td>
+<td>None</td>
+</tr>
+</tbody>
+</table>
+<details class="example">
+<summary>View Source</summary>
+<div class="codehilite"><pre><span></span><code><span class="n">def</span><span class="w"> </span><span class="n">plates_from_geneart_shipment_layout_sheet</span><span class="p">(</span><span class="n">filepath</span><span class="p">)</span><span class="err">:</span>
+
+<span class="w">    </span><span class="ss">&quot;&quot;&quot;Return a list of all plates (Plate96) in the shipment layout sheet.</span>
+
+<span class="ss">    A layout sheet can contain data for more than one plate, therefore a list of</span>
+
+<span class="ss">    Plateo plates are returned, instead of one plate.</span>
+
+<span class="ss">    Example</span>
+
+<span class="ss">    -------</span>
+
+<span class="ss">    &gt;&gt;&gt; plates = plates_from_geneart_shipment_layout_spreadsheet(filepath=&quot;</span><span class="mi">2020</span><span class="n">XYZ</span><span class="p">.</span><span class="n">xlsx</span><span class="ss">&quot;)</span>
+
+<span class="ss">    &gt;&gt;&gt; # Write the plates in plate layout spreadsheet format:</span>
+
+<span class="ss">    &gt;&gt;&gt; for plate in plates:</span>
+
+<span class="ss">    &gt;&gt;&gt;     plateo.exporters.plate_to_content_spreadsheet(plate, &quot;</span><span class="p">.</span><span class="o">/%</span><span class="n">s</span><span class="p">.</span><span class="n">xlsx</span><span class="ss">&quot; % plate.name)</span>
+
+<span class="ss">    Parameters</span>
+
+<span class="ss">    ----------</span>
+
+<span class="ss">    filepath</span>
+
+<span class="ss">      Path to the Geneart excel spreadsheet.</span>
+
+<span class="ss">    &quot;&quot;&quot;</span>
+
+<span class="w">    </span><span class="n">plates_data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">pandas</span><span class="p">.</span><span class="n">read_excel</span><span class="p">(</span><span class="n">filepath</span><span class="p">,</span><span class="w"> </span><span class="n">skiprows</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span><span class="w">  </span><span class="err">#</span><span class="w"> </span><span class="n">skip</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="k">first</span><span class="w"> </span><span class="mi">3</span><span class="w"> </span><span class="k">rows</span>
+
+<span class="w">    </span><span class="n">plates_indices</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">sorted</span><span class="p">(</span><span class="k">set</span><span class="p">(</span><span class="n">plates_data</span><span class="p">.</span><span class="n">Plate</span><span class="p">))</span><span class="w">  </span><span class="err">#</span><span class="w"> </span><span class="n">there</span><span class="w"> </span><span class="n">may</span><span class="w"> </span><span class="n">be</span><span class="w"> </span><span class="n">multiple</span><span class="w"> </span><span class="n">plates</span>
+
+<span class="w">    </span><span class="n">plates</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="err">{</span><span class="k">index</span><span class="err">:</span><span class="w"> </span><span class="n">Plate96</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="ss">&quot;Plate %d&quot;</span><span class="w"> </span><span class="o">%</span><span class="w"> </span><span class="k">index</span><span class="p">)</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="k">index</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="n">plates_indices</span><span class="err">}</span>
+
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="k">index</span><span class="p">,</span><span class="w"> </span><span class="n">plate</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="n">plates</span><span class="p">.</span><span class="n">items</span><span class="p">()</span><span class="err">:</span>
+
+<span class="w">        </span><span class="n">subdata</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">plates_data</span><span class="o">[</span><span class="n">plates_data.Plate == index</span><span class="o">]</span>
+
+<span class="w">        </span><span class="k">for</span><span class="w"> </span><span class="n">i</span><span class="p">,</span><span class="w"> </span><span class="k">row</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="n">subdata</span><span class="p">.</span><span class="n">iterrows</span><span class="p">()</span><span class="err">:</span>
+
+<span class="w">            </span><span class="n">well</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">plate</span><span class="p">.</span><span class="n">wells</span><span class="o">[</span><span class="n">row.Pos</span><span class="o">]</span>
+
+<span class="w">            </span><span class="n">well</span><span class="p">.</span><span class="k">data</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="err">{</span><span class="nl">k</span><span class="p">:</span><span class="w"> </span><span class="k">row</span><span class="o">[</span><span class="n">k</span><span class="o">]</span><span class="w"> </span><span class="k">for</span><span class="w"> </span><span class="n">k</span><span class="w"> </span><span class="ow">in</span><span class="w"> </span><span class="p">(</span><span class="ss">&quot;IDAuftrag&quot;</span><span class="p">,</span><span class="w"> </span><span class="ss">&quot;IDConstruct&quot;</span><span class="p">)</span><span class="err">}</span>
+
+<span class="w">            </span><span class="n">volume_microl</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">row</span><span class="o">[</span><span class="n">&quot;Volume [µl</span><span class="o">]</span><span class="ss">&quot;]</span>
+
+<span class="ss">            volume_in_l = volume_microl * 1e-6</span>
+
+<span class="ss">            quantity = volume_microl * row[&quot;</span><span class="n">Concentration</span><span class="w"> </span><span class="o">[</span><span class="n">µg/µl</span><span class="o">]</span><span class="err">&quot;]</span><span class="w"> </span><span class="o">*</span><span class="w"> </span><span class="mf">1e-6</span>
+
+<span class="w">            </span><span class="n">part_label</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">row</span><span class="p">.</span><span class="n">Gene_Name</span>
+
+<span class="w">            </span><span class="n">well</span><span class="p">.</span><span class="n">add_content</span><span class="p">(</span><span class="err">{</span><span class="nl">part_label</span><span class="p">:</span><span class="w"> </span><span class="n">quantity</span><span class="err">}</span><span class="p">,</span><span class="w"> </span><span class="n">volume</span><span class="o">=</span><span class="n">volume_in_l</span><span class="p">)</span>
+
+<span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="o">[</span><span class="n">plate for i, plate in sorted(plates.items())</span><span class="o">]</span>
+</code></pre></div>
+
+</details>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+    
+      <nav class="md-footer__inner md-grid" aria-label="Footer">
+        
+          
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Index" rel="prev">
+            <div class="md-footer__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <div class="md-ellipsis">
+                <span class="md-footer__direction">
+                  Previous
+                </span>
+                Index
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../version/" class="md-footer__link md-footer__link--next" aria-label="Next: Version" rel="next">
+            <div class="md-footer__title">
+              <div class="md-ellipsis">
+                <span class="md-footer__direction">
+                  Next
+                </span>
+                Version
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+    <div class="md-footer-meta md-typeset">
+      <div class="md-footer-meta__inner md-grid">
+        <div class="md-footer-copyright">
+            
+            Powered by
+            <a href="http://timothycrosley.github.io/portray">portray.</a>
+            You too can
+            <a href="http://timothycrosley.github.io/portray">
+              portray</a>
+            your Python project well using automatic documentation.
+          </div>
+        
+      </div>
+    </div>
+  </footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.5bf1dace.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.078830c0.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -85,3 +85,11 @@ fa_gwl_and_platemap = plater.create_gwl_and_platemap_from_csv(name="FA_test",
                                                              )
 fa_gwl_and_platemap["gwl"].records_to_file("fragment_analyzer_transfer.gwl")
 ```
+
+## License = MIT
+
+Plater is [free software](https://www.gnu.org/philosophy/free-sw.en.html), which means
+the users have the freedom to run, copy, distribute, study, change and improve the software.
+
+Plater was written at the [Edinburgh Genome Foundry](https://edinburgh-genome-foundry.github.io/)
+by [Peter Vegh](https://github.com/veghp) and is released under the MIT license.

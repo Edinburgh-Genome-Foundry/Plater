@@ -1,6 +1,8 @@
 # Plater
 
-This module is for generating a Tecan EVO gwl picklist file from a csv file that specifies the transfers. See `data.csv` for the required data and columns.
+[![Build Status](https://github.com/Edinburgh-Genome-Foundry/Plater/actions/workflows/build.yml/badge.svg)](https://github.com/Edinburgh-Genome-Foundry/Plater/actions/workflows/build.yml)
+
+This package is for generating a Tecan EVO gwl picklist file from a csv file that specifies the transfers. See `data.csv` for the required data and columns.
 
 #### Install
 

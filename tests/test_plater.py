@@ -5,9 +5,11 @@ import plateo
 from plateo.parsers import plate_from_content_spreadsheet
 import plater
 
+files_path = "examples"
+
 
 def test_create_gwl_and_platemap_from_csv(tmpdir):
-    filename = "data.csv"
+    filename = os.path.join(files_path, "data.csv")
 
     # Starting well set too high:
     with pytest.raises(ValueError):
@@ -37,7 +39,9 @@ def test_create_gwl_and_platemap_from_csv(tmpdir):
     )
 
     # Test with non-empty plate:
-    destination_plate = plate_from_content_spreadsheet("example_echo_plate.xlsx")
+    destination_plate = plate_from_content_spreadsheet(
+        os.path.join(files_path, "example_echo_plate.xlsx")
+    )
     gwl_and_platemap = plater.create_gwl_and_platemap_from_csv(
         "test", filename, destination_plate=destination_plate
     )
@@ -45,7 +49,7 @@ def test_create_gwl_and_platemap_from_csv(tmpdir):
 
 def test_plates_from_geneart_shipment_layout_sheet():
     geneart_plates = plater.plates_from_geneart_shipment_layout_sheet(
-        "geneart_example.xlsx"
+        os.path.join(files_path, "geneart_example.xlsx")
     )
     assert (
         geneart_plates[1]
@@ -57,7 +61,7 @@ def test_plates_from_geneart_shipment_layout_sheet():
 def test_convert_geneart_shipment_file_to_csv(tmpdir):
     destination_path = os.path.join(str(tmpdir), "geneart_example_transfer.csv")
     geneart_plate_csv = plater.convert_geneart_shipment_file_to_csv(
-        "geneart_example.xlsx",
+        filepath=os.path.join(files_path, "geneart_example.xlsx"),
         destination_plate_name="Destination",
         destination_plate_type="Echo PP P-05525 raised",
         destination_plate_size=384,
@@ -70,7 +74,7 @@ def test_make_csv_from_fragment_analyzer_report(tmpdir):
     destination_path = os.path.join(str(tmpdir), "fragment_analyzer_transfer.csv")
 
     plater.make_csv_from_fragment_analyzer_report(
-        filepath="fragment_analyzer.csv",
+        filepath=os.path.join(files_path, "fragment_analyzer.csv"),
         destination_plate_name="Destination",
         destination_plate_type="4ti-0960/B raised",
         destination_plate_size=96,

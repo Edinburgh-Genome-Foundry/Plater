@@ -2,6 +2,14 @@
 
 This module is for generating a Tecan EVO gwl picklist file from a csv file that specifies the transfers. See `data.csv` for the required data and columns.
 
+#### Install
+
+The package is not available on PyPI. Install from Github:
+
+```bash
+pip install plater@git+https://github.com/Edinburgh-Genome-Foundry/Plater
+```
+
 #### Usage:
 
 ```python
